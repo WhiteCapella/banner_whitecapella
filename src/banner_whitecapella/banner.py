@@ -1,5 +1,5 @@
 from pyfiglet import Figlet
-
+import random
 def show():
     from pyfiglet import Figlet
     f = Figlet(font='slant')
@@ -82,5 +82,20 @@ def pic():
     {%#%%######%%##%@@@@@@@@@@##%#####%@@@%###{{}{######%%%@@@@@@%%#{{{{%@@@@@%%#%%%%%@@@@@@@@@@@@@@@@@%%%%%####%@@@%#%%@@%##}[}}}#@
     """
     print(p)
+
+def lotto():
+    int lotto[6]
+    int count = 0
+    while count!=6:
+        lotto[count]=randint(1,45)
+        while (int i=0)!=count:
+            if lotto[i]==lotto[count]:
+                lotto[count] = randint(1,45)
+            else:
+                i++
+        count++
+
+    print(lotto[0] lotto[1] lotto[2] lotto[3] lotto[4] lotto[5])
+
 
 
