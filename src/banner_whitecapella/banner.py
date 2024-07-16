@@ -84,7 +84,7 @@ def pic():
     print(p)
 
 def lotto():
-    int lotto[6]
+    lotto = ['0', '0', '0', '0', '0', '0']
     int count = 0
     while count!=6:
         lotto[count]=randint(1,45)
