@@ -1,6 +1,6 @@
 [project]
 name = "banner_whitecapella"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = [
     {name = "Whitecapella1", email = "whitecapella@naver.com"},
@@ -12,6 +12,8 @@ requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+show-banner = 'banner_whitecapella.banner:show'
 
 [tool.pdm]
 distribution = true
