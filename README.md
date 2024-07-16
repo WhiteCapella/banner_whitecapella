@@ -1,3 +1,9 @@
+           __    _ __                             ____
+ _      __/ /_  (_) /____  _________ _____  ___  / / /___ _
+| | /| / / __ \/ / __/ _ \/ ___/ __ `/ __ \/ _ \/ / / __ `/
+| |/ |/ / / / / / /_/  __/ /__/ /_/ / /_/ /  __/ / / /_/ /
+|__/|__/_/ /_/_/\__/\___/\___/\__,_/ .___/\___/_/_/\__,_/
+                                  /_/
 # banner_whitecapella
 
 This Project is practice project of python packaging, writing user guide, and markdown readme document.
@@ -7,7 +13,7 @@ This Project is practice project of python packaging, writing user guide, and ma
 This Project require python version 3.8 over.
 Use pip installer
 ```
-pip install banner-whitecapella
+$ pip install banner-whitecapella
 ```
 
 ## Use Guide
