@@ -1,6 +1,6 @@
 [project]
 name = "banner_whitecapella"
-version = "0.2.1"
+version = "0.2.2"
 description = ""
 authors = [
     {name = "Whitecapella1", email = "whitecapella@naver.com"},
@@ -11,6 +11,10 @@ dependencies = [
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/WhiteCapella/banner_whitecapella"
+Issues = "https://github.com/WhiteCapella/banner_whitecapella/issues"
 
 [project.scripts]
 show-banner = 'banner_whitecapella.banner:show'
