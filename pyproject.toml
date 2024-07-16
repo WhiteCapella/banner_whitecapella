@@ -1,6 +1,6 @@
 [project]
 name = "banner_whitecapella"
-version = "0.3.4"
+version = "0.3.9"
 description = ""
 authors = [
     {name = "Whitecapella1", email = "whitecapella@naver.com"},

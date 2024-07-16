@@ -84,19 +84,9 @@ def pic():
     print(p)
 
 def lotto():
-    lotto = ['0', '0', '0', '0', '0', '0']
-    cnt = 0
-    while cnt!=6:
-        lotto[cnt]=randint(1,45)
-        i=0
-        while i!=cnt:
-            if lotto[i]==lotto[cnt]:
-                lotto[cnt] = randint(1,45)
-            else:
-                i++
-        cnt++
-
-    print(lotto[0] lotto[1] lotto[2] lotto[3] lotto[4] lotto[5])
-
+    
+    lotto = random.sample(range(1,46),6)
+    lotto.sort()
+    print(*lotto)
 
 
