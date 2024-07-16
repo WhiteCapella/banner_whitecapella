@@ -88,7 +88,8 @@ def lotto():
     cnt = 0
     while cnt!=6:
         lotto[cnt]=randint(1,45)
-        while (int i=0)!=cnt:
+        i=0
+        while i!=cnt:
             if lotto[i]==lotto[cnt]:
                 lotto[cnt] = randint(1,45)
             else:
