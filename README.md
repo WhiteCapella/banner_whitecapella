@@ -25,6 +25,7 @@ $ whitecapella-banner
 ```
 $ whitecapella-pic
 ```
+![image](https://github.com/user-attachments/assets/2516b784-9a7f-40d9-b432-a45afc6a31e2)
 
 
 ### lotto
@@ -32,6 +33,7 @@ $ whitecapella-pic
 ```
 $ whitecapella-lotto
 ```
+
 
 
 
